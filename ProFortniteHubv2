@@ -48,7 +48,7 @@ Tab:AddButton({
       		--YBA Autohop (Use Autoexecute)
 getgenv().Itemfarm = true
 getgenv().Invis = true
-getgenv().WaitTime = 0.25 --0.25 for Players with under 80Ping and 0.3 / 0.4 for everything higher
+getgenv().WaitTime = 0.4 --0.25 for Players with under 80Ping and 0.3 / 0.4 for everything higher
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Tobias020108Back/YBA-AUT/main/New-Itemfarm-Yba.lua"))()
   	end    
 })
