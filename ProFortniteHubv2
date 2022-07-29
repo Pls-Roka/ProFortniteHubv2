@@ -52,6 +52,12 @@ getgenv().WaitTime = 0.25 --0.25 for Players with under 80Ping and 0.3 / 0.4 for
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Tobias020108Back/YBA-AUT/main/New-Itemfarm-Yba.lua"))()
   	end    
 })
+Tab:AddButton({
+	Name = "BlueGUI!",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/TheFarowHywolf/YBA-Midnight-script/master/YBA.lua"))()
+  	end    
+})
 local Tab = Window:MakeTab({
 	Name = "BloxFruits",
 	Icon = "rbxassetid://4483345998",
