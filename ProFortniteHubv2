@@ -159,6 +159,12 @@ Tab:AddButton({
       		loadstring(game:HttpGet(("https://raw.githubusercontent.com/natoppo044/modzcaster/main/POWERX.lua"),true))()
   	end    
 })
+Tab:AddButton({
+	Name = "BlazeX!",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/WindowsXp12/BlxzeRBLX/main/BLxzeHub.lua"))()
+  	end    
+})
 local Tab = Window:MakeTab({
 	Name = "UniversalScripts",
 	Icon = "rbxassetid://4483345998",
