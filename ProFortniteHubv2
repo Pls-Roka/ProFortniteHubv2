@@ -29,6 +29,12 @@ Tab:AddButton({
   	end    
 })
 Tab:AddButton({
+	Name = "XenonHub!",
+	Callback = function()
+      	loadstring(game:HttpGet(("https://raw.githubusercontent.com/Pls-Roka/Xenon-Hub-/main/XenonHub"), true))()
+  	end    
+})
+Tab:AddButton({
 	Name = "VGHub",
 	Callback = function()
       		loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
