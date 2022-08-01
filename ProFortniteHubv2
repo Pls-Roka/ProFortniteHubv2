@@ -172,6 +172,24 @@ Tab:AddButton({
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/WindowsXp12/BlxzeRBLX/main/BLxzeHub.lua"))()
   	end    
 })
+Tab:AddButton({
+	Name = "SniperHub!",
+	Callback = function()
+      	loadstring(game:HttpGet('https://raw.githubusercontent.com/Xero-Trash/FullVerions/Loadmain/Loader-Sniper_78964'))()
+  	end    
+})
+Tab:AddButton({
+	Name = "OneXHub!",
+	Callback = function()
+      	loadstring(game:HttpGet("https://raw.githubusercontent.com/xOne2/One-x-HUB/main/README.md"))()
+  	end    
+})
+Tab:AddButton({
+	Name = "MiracleGUI!",
+	Callback = function()
+      	loadstring(game:HttpGet("https://raw.githubusercontent.com/TUPERX/TUPERX/MAIN/BFMIRACLEHUB/LOL/README.md"))()
+  	end    
+})
 local Tab = Window:MakeTab({
 	Name = "UniversalScripts",
 	Icon = "rbxassetid://4483345998",
