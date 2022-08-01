@@ -361,6 +361,17 @@ Tab:AddButton({
 local Section = Tab:AddSection({
 	Name = "Only 2 Scripts for Now"
 })
+local Tab = Window:MakeTab({
+	Name = "Apeirophobia",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddButton({
+	Name = "BlueGUI!",
+	Callback = function()
+      	loadstring(game:HttpGet(('https://raw.githubusercontent.com/XCD7/x/main/x'),true))()
+  	end    
+})
 
 
 
