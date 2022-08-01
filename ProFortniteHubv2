@@ -91,9 +91,6 @@ Tab:AddButton({
       	loadstring(game:HttpGet"https://raw.githubusercontent.com/xQuartyx/DonateMe/main/old")()
   	end    
 })
-local Section = Tab:AddSection({
-	Name = "If MukuroHub Does Pop Up Delete the Mukuro Folder at Executor Workspace"
-})
 Tab:AddButton({
 	Name = "ZenHub!",
 	Callback = function()
