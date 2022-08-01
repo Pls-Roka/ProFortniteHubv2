@@ -7,9 +7,7 @@ local Tab = Window:MakeTab({
 	PremiumOnly = false
 })
 Tab:AddLabel("Welcome")
-Tab:AddParagraph("Owner:Sparkz","")
-Tab:AddParagraph("Discord:Sparkz#8848","")
-Tab:AddParagraph("Last Updated","7/27/2022")
+Tab:AddParagraph("Last Updated","8/1/2022")
 OrionLib:MakeNotification({
 	Name = "ProFortniteHub V2",
 	Content = "Hello Guys welcome to my minecraft lets play",
