@@ -14,6 +14,7 @@ OrionLib:MakeNotification({
 	Image = "https://static.wikia.nocookie.net/shivaxis-rlcraft/images/e/ea/Diamond.png/revision/latest?cb=20210527212751",
 	Time = 5
 })
+Tab:AddParagraph("Discord:Sparkz#8848","DM if Script has Issue")
 local Tab = Window:MakeTab({
     Name = "YBA",
     Icon = "rbxassetid://4483345998",
