@@ -82,13 +82,7 @@ Tab:AddButton({
 Tab:AddButton({
 	Name = "MukuroHub",
 	Callback = function()
-      	loadstring(game:HttpGet"https://raw.githubusercontent.com/xQuartyx/DonateMe/main/NEWBF")()
-  	end    
-})
-Tab:AddButton({
-	Name = "OldMukuroHub",
-	Callback = function()
-      	loadstring(game:HttpGet"https://raw.githubusercontent.com/xQuartyx/DonateMe/main/old")()
+      	loadstring(game:HttpGet"https://raw.githubusercontent.com/xQuartyx/DonateMe/main/ScriptLoader")()
   	end    
 })
 Tab:AddButton({
